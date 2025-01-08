@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #3a3a3a;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.quotes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.quote {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.quote:nth-child(odd) {
+    background-color: #ffcc66;
+}
+
+.quote:nth-child(even) {
+    background-color: #99cc99;
+}
